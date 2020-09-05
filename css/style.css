@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --color-black: black;
+    --color-bsecond: #181818;
+    --color-white: white;
+    --color-secondary: #f9982d;
+    --color-primary: #f1592a; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* a:hover{
+    text-decoration: none;
+    color: #6b6b6b;
+} */
+
+.content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container-fluid {
+margin: 0;
+padding: 0;
+}
+.container-fluid .row {
+margin: 0;
+padding: 0;
+}
+
+.dropdown-toggle::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.dropdown:hover > .dropdown-menu {
+display: block;
+}
+
+.megamenu {
+position: static;
+    padding: 3.5rem 1.7rem 0;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+    transition: all .4s;
+}
+
+#megamenu:hover {
+    color: #ff7900!important;
+    border-bottom: .2rem solid #ff7900;
+    transition: all .4s;
+}
+
+.megamenu .dropdown-menu {
+border: none;
+width: 100%;
+background: rgb(255, 255, 255);
+}
+
+.block-content nav{
+    padding: 2rem 5rem;
+    background-color: black!important;
+    height: 7rem;
+}
+
+.nav-logo img{
+    width: 5rem;
+    height: 5rem;
+}
+
+.main{
+    min-height: 10rem;
+    margin: 10rem 0 0;
+}
+
+.main-illustration_login{
+    margin-top: 4rem;
+}
+
+.form-content{
+    margin-top: 8rem;
+}
+
+.form-content p{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.form-content input{
+    height: 5rem;
+    border: .3rem solid #cccccc;
+    width: 65%;
+    padding: 1.5rem 1rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.3rem;
+}
+
+input{
+    outline: none;
+}
+
+.form-group button{
+    padding: .6rem 1rem;
+    font-size: 1.6rem;
+    background-color: #ff7900;
+    border: none;
+    cursor: pointer;
+}
+
+.main-header{
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.main-link{
+    margin-top: 3.6rem;
+}
+
+.main-link ul li{
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-bottom: .8rem;
+}
+
+.main-link ul li a{
+    font-size: 1.4rem;
+    font-weight: 550;
+    color: black;
+    transition: all .4s;
+}
+
+.main-link ul li a:hover{
+    color: #ff7900;
+    transition: all .4s;
+}
+
+.banner{
+    height: 15rem;
+    padding: 4rem 0;
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    margin-top: 7rem;
+}
+
+.footer{
+    min-height: 10rem;
+    padding: 3rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer hr{
+    background-color: rgb(255, 255, 255);
+    width: 120%;
+    margin-left: -5rem;
+    opacity: 0.5;
+}
+
+.footer-link ul li,
+.footer-link .small li{
+    list-style: none;
+    padding: 0 2.2rem;
+    display: inline-block;
+}
+
+.footer-link .small li{
+    padding: 0 1.2rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+.footer-link ul li a{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-link ul li a:hover,
+.list-unstyled .nav-item a:hover{
+    text-decoration-color: #ff7900;
+}
+
+.footer-link ul li a:hover{
+    text-decoration-color: #ff7900;
+}
+
+.footer-link .small li a{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 300;
+}
+
+.list-unstyled .nav-item a{
+    color: black!important;
+    font-size: 1.5rem;
+}
+
+.dropdow-menu_title{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: #ff7900;
+    font-weight: 600;
+    margin: 0 0 1.5rem;
+}
+
+.shadow-sm h2{
+    color: black;
+    margin-bottom: 3rem;
+}
