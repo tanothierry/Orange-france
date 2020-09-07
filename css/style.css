@@ -51,6 +51,29 @@ margin: 0;
 padding: 0;
 }
 
+.topnav{
+    min-height: 4rem;
+    background-color: black;
+    width: 100%;
+    margin-top: -1rem;
+    padding: 2rem 0;
+}
+
+.topnav ul{
+    margin-right: 10rem;
+}
+
+.topnav ul li{
+    display: inline-block;
+    float: right;
+}
+
+.topnav ul li a{
+    font-size: 1.4rem;
+    color: white;
+    padding: 1.2rem 1rem;
+}
+
 .dropdown-toggle::after {
     display: inline-block;
     width: 0;
@@ -80,8 +103,12 @@ position: static;
     padding: 3.5rem 1.7rem 0;
     font-size: 1.5rem;
     text-transform: capitalize;
-    color: white;
+    color: white!important;
     transition: all .4s;
+}
+
+#megamenu{
+    color: white!important;
 }
 
 #megamenu:hover {
@@ -94,6 +121,8 @@ position: static;
 border: none;
 width: 100%;
 background: rgb(255, 255, 255);
+color: white!important;
+
 }
 
 .block-content nav{
